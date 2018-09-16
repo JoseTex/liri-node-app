@@ -1,8 +1,9 @@
 require("dotenv").config();
+
 var fs = require("fs");
 var request = require('request');
-var spotify = require('node-spotify-api');
 var moment = require('moment');
+var spotify = require('node-spotify-api');
 
 var random = require("./random.txt");
 var keys = require("./keys.js");
@@ -97,9 +98,6 @@ function conCert (artist) {
     }
   });
 }
-
-
-
 
 
 //SPOTIFY Function
@@ -218,8 +216,8 @@ function movieSearch(movie){
 
     }
   })
-
 }
+
 
 //Do What It Says Function 
 //Didnt have time to work in the command calls from the file so I made it so each number in the array would have a different command executed. 
