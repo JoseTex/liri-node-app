@@ -236,3 +236,34 @@ function doThis(){
   
   });
 }
+
+//Test Functionality
+
+const isSong = function () {
+  let trackVal = arg3; 
+  if(spotSearch){
+    console.log("success!!!")
+  }return trackVal
+}
+
+const keysLoaded = function () { 
+  if(keys){
+    console.log("keys are straight");
+    return true;
+  }
+}
+
+const keyData = function (data) {
+  if(keys){
+    console.log("dont peek!");
+    return keys.data
+  };
+}
+
+module.exports = {
+  isSong: isSong, 
+  track: spotSearch,
+  movie: movieSearch,
+  keysLoaded: keysLoaded,
+  keyData: keyData
+}

@@ -4,16 +4,21 @@
   "description": "",
   "main": "keys.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
     "dotenv": "^6.0.0",
+    "mocha": "^5.2.0",
     "moment": "^2.22.2",
     "node-spotify-api": "^1.0.7",
+    "request": "^2.88.0",
     "request-promise": "^4.2.2",
-    "require": "^2.4.20"
+    "require": "^2.4.20",
+    "spotify": "^0.3.0"
   }
 }
